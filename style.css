@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avtelligen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Avtelligen</h1>
+        <p>Innovative Solutions for Aviation Safety and Efficiency</p>
+    </header>
+    <main>
+        <section id="pilot-information-system">
+            <h2>Pilot Information System</h2>
+            <p>Helps you get detailed information about airports so that you can complete flights without incident. Includes detailed airport briefings, arrival procedures, taxi stands, special airport briefings, AI risk factors from different airports depending on the weather, time, and other factors so that pilots can avoid unstabilized approaches, and chat rooms for pilots to discuss airports, aircraft, and any issues that may affect the safety of operations.</p>
+        </section>
+        <section id="airman">
+            <h2>Airman</h2>
+            <p>An application to help pilots and technicians document the progress of the flight for easier referencing. Includes the ability to create checklists and flows so that they can execute complex flows with ease, helping pilots and technicians execute their jobs to a high level of quality and speedily.</p>
+        </section>
+        <section id="henki">
+            <h2>Henki</h2>
+            <p>Helps pilots and technicians revise key information about their aircraft, regulations, etc., so that they remain current and fully fresh knowledge-wise. Uses the principles of spaced repetition to make sure they grasp even the hard-to-know items.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: +251927709161 | <a href="mailto:eliastsegaye20@gmail.com">eliastsegaye20@gmail.com</a></p>
+    </footer>
+</body>
+</html>
