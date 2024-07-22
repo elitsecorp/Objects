@@ -4,17 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avtelligen</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: #343a40;
+            color: #fff;
+        }
+        .feature-section {
+            margin: 2rem 0;
+			padding-left:20px;
+        }
+        .feature-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+			padding-right:20%;
+        }
+        .cta {
+            margin-top: 1rem;
+        }
+        .testimonial {
+            background-color: #f1f1f1;
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #343a40;
+            color: #fff;
+        }
+        a {
+            color: #007bff;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Avtelligen</h1>
         <p>Innovative Solutions for Aviation Safety and Efficiency</p>
     </header>
-    <main>
-        <section id="pilot-information-system" class="feature-section">
-            <img src="Pilot_Information_System.png" alt="Pilot Information System">
-            <div class="feature-content">
+    <main class="container">
+        <section class="row feature-section">
+            <div class="col-md-4">
+                <img src="Pilot_Information_System.png" alt="Pilot Information System">
+            </div>
+            <div class="col-md-8">
                 <h2>Pilot Information System</h2>
                 <ul>
                     <li>Get detailed information about airports</li>
@@ -24,12 +69,14 @@
                     <li>Avoid unstabilized approaches</li>
                     <li>Chat rooms for pilots to discuss airports, aircraft, and safety issues</li>
                 </ul>
-                <button class="cta">Download Now</button>
+                <a href="airmen.apk" class="btn btn-primary cta">Download Now</a>
             </div>
         </section>
-        <section id="airman" class="feature-section">
-            <img src="Airman_Checklist.png" alt="Airman">
-            <div class="feature-content">
+        <section class="row feature-section">
+            <div class="col-md-4">
+                <img src="Airman_Checklist.png" alt="Airman">
+            </div>
+            <div class="col-md-8">
                 <h2>Airman</h2>
                 <ul>
                     <li>Document the progress of the flight for easier referencing</li>
@@ -37,24 +84,34 @@
                     <li>Execute complex flows with ease</li>
                     <li>Helps pilots and technicians execute their jobs to a high level of quality and speed</li>
                 </ul>
-                <button class="cta">Download Now</button>
+                <a href="airman.apk" class="btn btn-primary cta">Download Now</a>
             </div>
         </section>
-        <section id="henki" class="feature-section">
-            <img src="Henki_Learning_App.png" alt="Henki">
-            <div class="feature-content">
+        <section class="row feature-section">
+            <div class="col-md-4">
+                <img src="Henki_Learning_App.png" alt="Henki">
+            </div>
+            <div class="col-md-8">
                 <h2>Henki</h2>
                 <ul>
                     <li>Revise key information about aircraft, regulations, etc.</li>
                     <li>Remain current and fully fresh knowledge-wise</li>
                     <li>Uses the principles of spaced repetition to grasp even the hard-to-know items</li>
                 </ul>
-                <button class="cta">Download Now</button>
+                <a href="jedi.apk" class="btn btn-primary cta">Download Now</a>
             </div>
+        </section>
+        <section class="testimonial">
+            <h2>Testimonials</h2>
+            <p>"Avtelligen has revolutionized the way we access information and ensure safety in aviation. The apps are incredibly user-friendly and efficient." - Captain Abrham Behailu</p>
+            <p>"As a technician, Airman has made documenting and referencing flight progress seamless and straightforward. Highly recommend!" - Technician Haile Belay</p>
         </section>
     </main>
     <footer>
         <p>Contact: +251927709161 | <a href="mailto:eliastsegaye20@gmail.com">eliastsegaye20@gmail.com</a></p>
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
